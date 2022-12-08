@@ -10,6 +10,10 @@ This is not an easy task. Watching intensity and execution while having to shoot
 
 Then after each goalkeeper training session it requires a huge amount of time to cut and edit the videos and then sending them to the goalkeepers to give them tips on how to improve based on the insights provided by the videos. Therefore, it would be nice to have this process automated. 
 
-The detailed idea is the following: 
+### The detailed idea is the following: 
 * A video is provided, which contains one or more exercises performed by the goalkeepers
-* 
+* In one exercise, usually one goalkeeper performs the exercise and the others watch or help during exercise execution (they might also shoot or throw balls) but there might also be multiple goalkeepers executing at the same time
+* For each goalkeeper in the video I want clips from the video provided where he (the goalkeeper) is actively executing an exercise, but not the clips where he is watching or part of the execution for other goalkeepers
+    * When the exercise stays the same but he is doing multiple repetitions I would expect multiple clips for each repetition
+    * cut out waiting or recovery times
+    * clips should start and end about 2 seconds before the exercise start and end (or repetition start and end if multiple)
