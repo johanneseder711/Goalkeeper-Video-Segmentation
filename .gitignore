@@ -135,4 +135,4 @@ dmypy.json
 Videos/*
 
 # ignore the frames created by the extract_frame_every_seconds function 
-00_extract_frames/frame*
+00_extract_frames/extracted*
