@@ -138,4 +138,4 @@ Videos/*
 00_extract_frames/extracted_frames/*
 
 # ignore the yolo model folder (including the pose estimated frames)
-01_pose_esimation/yolov7/*
+01_pose_estimation/yolov7
