@@ -133,3 +133,6 @@ dmypy.json
 
 # ignore the folder which contains the Videos
 Videos/*
+
+# ignore the frames created by the extract_frame_every_seconds function 
+00_extract_frames/frame*
