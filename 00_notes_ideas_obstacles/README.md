@@ -36,3 +36,26 @@ My first thought on the key point extraction of the pose estimation is that the 
 
 Found a nice article on [StackAbuse](https://stackabuse.com/pose-estimation-and-keypoint-detection-with-yolov7-in-python/) using a model called YOLO (check out the [paper](https://arxiv.org/abs/2207.02696) on arxiv and this [blog post](https://viso.ai/deep-learning/yolov7-guide/) later), meaning You Only Look Once, to do pose estimation. I will try to follow the article and document the most important lessons for me below: 
 * Pose estimation is a special case of keypoint detection
+* YOLO (You Only Look Once) is a methodology, as well as family of models built for object detection
+* There are different versions of Yolo models, Yolov7 is the newest version
+* YOLOv5 is the first large-scale implementation of YOLO in PyTorch
+
+## 221211 - Further implementation and documentation
+
+#### Object detection vs instance segmentation
+ 
+After trying to make this work I found a lot of talking about object detection and instance segmentation. Didn't know the difference in detail so i quickly googled what the difference is. Check out this [Article on Roboflow](https://blog.roboflow.com/instance-segmentation-roboflow/) 
+
+In simple words: 
+* Object Detection: Helps detecting an object in an image. Usually this is done by bounding boxes surrounding the object that is identified. 
+* Instance Segementation: Is a more detailed and complex task and can be seen as an extension to object detection. This really identifies an object and its associated shape in an image and classifies each occurance as a seperate instance.
+
+Example: Object detection detects people in an image by surrounding them with bounding boxes. Instance segmentation then helps to identifiy seperat
+
+#### [curl command](https://everything.curl.dev/usingcurl)
+
+The curl command stands for Client-URL. Meaning its a client side programm that uploads or downloads data with a URL. That also pretty much explains basically what it does, although it is capabale of a lot more things using flags. 
+In the StackAbuse article they used -L (which i could not find what it means, guess its just downloading form the URL after the flag) and -o. -o Flag lets you specify where to put the downloaded content and additionally rename it. 
+
+Especially useful might also be the -O flag if you want the downloaded stuff to be in the current directoy and use the rightmost part of the url as the name. Check out also the [Link](https://everything.curl.dev/usingcurl/downloads/url-named) for more details on that. 
+
