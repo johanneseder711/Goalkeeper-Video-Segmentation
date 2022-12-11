@@ -59,3 +59,16 @@ In the StackAbuse article they used -L (which i could not find what it means, gu
 
 Especially useful might also be the -O flag if you want the downloaded stuff to be in the current directoy and use the rightmost part of the url as the name. Check out also the [Link](https://everything.curl.dev/usingcurl/downloads/url-named) for more details on that. 
 
+#### Github Releases
+
+Found out about [Github Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases). 
+In the Github Release of Yolov7 the Releases are used to store the trained models weight files. 
+
+#### .pt file extension
+
+.pt (or sometimes also .pth) is a Pytorch specific extension to save models, weights or checkpoints of a model. This is in contrast to the Tensorflow way of saving models as .pb files. 
+Check out this [stackoverflow](https://stackoverflow.com/questions/59095824/what-is-the-difference-between-pt-pth-and-pwf-extentions-in-pytorch) post on the differncen between .pt and .pth (and why you might rather use .pt) or this [reddit](https://www.reddit.com/r/MLQuestions/comments/g16snd/deep_learning_model_formats_pt_format/) post on the differnce of .pb vs .pt. 
+
+#### [Command Line Arguments for Your Python Script](https://machinelearningmastery.com/command-line-arguments-for-your-python-script/)
+
+It is possible to run python scripts from the command line with command line arguments. Pyhton provides a library called argparse to read or define the supported arguments and then use this for variables or do sth. with it. Very nice - didn't know that was possibel. 😎 
