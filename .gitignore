@@ -139,3 +139,6 @@ Videos/*
 
 # ignore the yolo model folder (including the pose estimated frames)
 01_pose_estimation/yolov7
+
+# ignore the folder with the pictures
+_players
