@@ -20,7 +20,7 @@ device = "cpu"
 
 def load_model():
     try:
-        model = attempt_load('model_weights/yolov7-w6-pose.pt', map_location=device)
+        model = attempt_load('yolov7-w6-pose.pt', map_location=device)
         model.eval()
         print("Model loaded successfully")
         return model
